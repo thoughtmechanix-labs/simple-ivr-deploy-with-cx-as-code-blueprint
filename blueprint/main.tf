@@ -112,7 +112,7 @@ resource "genesyscloud_telephony_providers_edges_did_pool" "mygcv_number" {
   start_phone_number = "+19205422729"
   end_phone_number   = "+19205422729"
   description        = "GCV Number for inbound calls"
-  comments           = "Additional comments"
+  comments           = "I am pretty teapot"
   depends_on = [
     genesyscloud_flow.deploy_archy_flow
   ]
